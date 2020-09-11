@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./code.png">
+    <title>ENCODING TEXT</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title-logo">
+                <h1>
+                ENCODE TEXT
+                </h1>
+            </div>
+            <div class="navigation-bar">
+                <select class="encode-decode">
+                    <option value="encode">Encode</option>
+                    <option value="decode">Decode</option>
+                </select>
+            </div>
+        </div>
+        <div class="text-encode-decode">
+            <textarea name="text" class="text" oninput="encodetext()"></textarea>
+            <br>
+            <h1 class="result">RESULT</h1>
+            <textarea name="encode-decode" class="encode-decode-text"></textarea>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
